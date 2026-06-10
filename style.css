@@ -8,7 +8,7 @@ body {
 
 header {
     text-align: center;
-    padding: 50px;
+    padding: 60px 20px;
     background: #1f1f1f;
 }
 
@@ -39,6 +39,12 @@ section {
     max-width: 900px;
     margin: 30px auto;
     padding: 20px;
+}
+
+.subtitulo {
+    font-size: 0.95rem;
+    opacity: 0.7;
+    margin-top: 10px;
 }
 
 .habilidades {
@@ -83,7 +89,7 @@ section {
 .btn-projeto {
     display: inline-block;
     margin-top: 10px;
-    padding: 10px 20px;
+    padding: 12px 24px;
     background: #ffffff;
     color: #121212;
     text-decoration: none;
@@ -93,7 +99,7 @@ section {
 }
 
 .btn-projeto:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
 }
 
 .contatos {
@@ -127,7 +133,7 @@ footer {
 
 @media (max-width: 768px) {
     header {
-        padding: 30px 15px;
+        padding: 50px 20px;
     }
 
     section {
